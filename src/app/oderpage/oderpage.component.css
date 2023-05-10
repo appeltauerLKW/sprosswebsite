@@ -1,0 +1,741 @@
+#submitbutton {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../images/Vector.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+button {
+    display:none;
+}
+
+.inputfield {
+    border-color: transparent !important;
+    background-color: transparent !important;
+    width: auto !important;
+    color: white;
+    text-align: left;
+}
+
+::placeholder {
+    color:white;
+    opacity: 80%;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #6A8476;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+
+.buttoninput[type=radio] {
+    margin-left: 97px;
+    margin-top: 0px;
+}
+
+label {
+    font-family:Just Another Hand;
+	text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+    color:white;
+}
+
+.labelgroup {
+    padding-left: 20px;
+}
+
+.e16_11 { 
+	overflow:hidden;
+}
+.e16_11 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:360px;
+	height:1414px;
+	position:absolute;
+}
+.e16_14 { 
+	transform: rotate(5.834815441397deg);
+	background-color:rgba(215.63520669937134, 235.87500303983688, 224.9456799030304, 1);
+	width:253.59864807128906px;
+	height:236.8250274658203px;
+	position:absolute;
+	left:0.27783203125px;
+	top:-30px;
+}
+.e16_14 { 
+	border:1.0655412673950195px solid rgba(152.80077517032623, 188.06248784065247, 168.82877111434937, 1);
+}
+.e23_66 { 
+	width:516px;
+	height:626px;
+	position:absolute;
+	left:-89px;
+	top:472px;
+}
+.e23_64 { 
+	border-radius:500px;
+	background-color:rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 1);
+	width:110px;
+	height:107px;
+	position:absolute;
+	left:406px;
+	top:438px;
+}
+.e23_64 { 
+	border:1px solid rgba(152.80077517032623, 188.06248784065247, 168.82877111434937, 1);
+}
+.e23_65 { 
+	border-radius:500px;
+	background-color:rgba(141.0000067949295, 173.00000488758087, 156.00000590085983, 1);
+	width:117px;
+	height:134px;
+	position:absolute;
+	left:364px;
+	top:492px;
+}
+.e23_65 { 
+	border:1px solid rgba(255, 255, 255, 1);
+}
+.e23_62 { 
+	border-radius:500px;
+	background-color:rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 1);
+	width:236px;
+	height:242px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.e23_62 { 
+	border:1px solid rgba(152.80077517032623, 188.06248784065247, 168.82877111434937, 1);
+}
+.e23_63 { 
+	border-radius:500px;
+	background-color:rgba(106.00000128149986, 132.0000073313713, 118.00000056624413, 1);
+	width:117px;
+	height:132px;
+	position:absolute;
+	left:96px;
+	top:154px;
+}
+.e23_63 { 
+	border:1px solid rgba(255, 255, 255, 1);
+}
+.e16_20 { 
+	border-radius:500px;
+	background-color:rgba(152.80077517032623, 188.06248784065247, 168.82877111434937, 1);
+	width:190px;
+	height:179px;
+	position:absolute;
+	left:235px;
+	top:-55px;
+}
+.e16_21 { 
+	border-radius:500px;
+	background-color:rgba(106.00000128149986, 132.0000073313713, 118.00000056624413, 1);
+	width:198px;
+	height:200px;
+	position:absolute;
+	left:217px;
+	top:108px;
+}
+.e16_17 { 
+	color:rgba(106.16855263710022, 131.74999594688416, 117.79648348689079, 1);
+	width:124px;
+	height:102.0582046508789px;
+	position:absolute;
+	left:27px;
+	top:32.09895324707031px;
+	font-family:Just Another Hand;
+	text-align:left;
+	font-size:60px;
+	letter-spacing:0;
+}
+.e16_18 { 
+	background-color:rgba(152.80077517032623, 188.06248784065247, 168.82877111434937, 1);
+	width:305px;
+	height:1136px;
+	position:absolute;
+	left:27px;
+	top:231px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+.e16_18 { 
+	border:1.5px solid rgba(255, 255, 255, 1);
+}
+.e20_59 { 
+	background-color:rgba(106.00000128149986, 132.0000073313713, 118.00000056624413, 0.25999999046325684);
+	width:271px;
+	height:264px;
+	position:absolute;
+	left:45px;
+	top:612px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+.e23_67 { 
+	background-color:rgba(106.00000128149986, 132.0000073313713, 118.00000056624413, 0.25999999046325684);
+	width:271px;
+	height:264px;
+	position:absolute;
+	left:45px;
+	top:891px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+.e23_88 { 
+	background-color:rgba(106.00000128149986, 132.0000073313713, 118.00000056624413, 0.25999999046325684);
+	width:271px;
+	height:152px;
+	position:absolute;
+	left:44px;
+	top:1189px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+.e16_22 { 
+	width:36px;
+	height:26px;
+	position:absolute;
+	left:308px;
+	top:18px;
+}
+.ei16_22_2_12 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:36px;
+	height:6px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.ei16_22_2_13 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:36px;
+	height:6px;
+	position:absolute;
+	left:0px;
+	top:10px;
+}
+.ei16_22_2_14 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:36px;
+	height:6px;
+	position:absolute;
+	left:0px;
+	top:20px;
+}
+.e23_82 { 
+	width:247px;
+	height:40.32945251464844px;
+	position:absolute;
+	left:59px;
+	top:984.452880859375px;
+}
+.e23_83 { 
+	background-color:rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 0.4399999976158142);
+	width:247px;
+	height:40.32945251464844px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+}
+.e23_83 { 
+	border:1px solid rgba(255, 255, 255, 1);
+}
+.e23_84 { 
+	color:white;
+	width:69px;
+	height:24.69150161743164px;
+	position:absolute;
+	left:15px;
+	top:8.230500221252441px;
+	font-family:Just Another Hand;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+    
+}
+.e23_79 { 
+	width:247px;
+	height:40.32945251464844px;
+	position:absolute;
+	left:59px;
+	top:1067.5809326171875px;
+}
+.e23_80 { 
+	background-color:rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 0.4399999976158142);
+	width:247px;
+	height:40.32945251464844px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+}
+.e23_80 { 
+	border:1px solid rgba(255, 255, 255, 1);
+}
+.e23_81 { 
+	color:rgba(255, 255, 255, 0.6000000238418579);
+	width:63px;
+	height:24.69150161743164px;
+	position:absolute;
+	left:13px;
+	top:8.230500221252441px;
+	font-family:Just Another Hand;
+	text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+}
+.e23_71 { 
+	color:rgba(255, 255, 255, 1);
+	width:76px;
+	height:24.69150161743164px;
+	position:absolute;
+	left:66px;
+	top:954px;
+	font-family:Just Another Hand;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+}
+.e23_72 { 
+	color:rgba(255, 255, 255, 1);
+	width:74px;
+	height:24.69150161743164px;
+	position:absolute;
+	left:64px;
+	top:1037.1280517578125px;
+	font-family:Just Another Hand;
+	text-align:left;
+	font-size:30px;
+	letter-spacing:0;
+}
+.e20_58 { 
+	background-color:rgba(106.00000128149986, 132.0000073313713, 118.00000056624413, 0.25999999046325684);
+	width:271px;
+	height:264px;
+	position:absolute;
+	left:45px;
+	top:333px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+.e16_27 { 
+	color:rgba(255, 255, 255, 1);
+	width:254px;
+	height:52px;
+	position:absolute;
+	left:62px;
+	top:256px;
+	font-family:Just Another Hand;
+	text-align:left;
+	font-size:60px;
+	letter-spacing:0;
+}
+.e16_28 { 
+	border:2px solid rgba(106.00000128149986, 132.0000073313713, 118.00000056624413, 1);
+}
+.e16_28 { 
+	width:254px;
+	height:0px;
+	position:absolute;
+	left:54px;
+	top:318px;
+}
+.e16_26 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:261px;
+	height:44.4447021484375px;
+	position:absolute;
+	left:162px;
+	top:140.74156188964844px;
+}
+.e16_26 { 
+	border:1px solid rgba(63.36927942931652, 90.3124974668026, 67.68019750714302, 1);
+}
+.e16_32 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	width:109px;
+	height:154px;
+	position:absolute;
+	left:194px;
+	top:403px;
+    border-radius: 20px;
+}
+.e16_31 { 
+	background-color:rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 0.4399999976158142);
+	width:109px;
+	height:154px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+.e16_31 { 
+	border:1px solid rgba(255, 255, 255, 1);
+}
+
+.e16_31:focus {
+	background-color: rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 0.9);
+}
+
+.e16_38:focus {
+	background-color: rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 0.9);
+}
+
+.e16_29 { 
+	background-image: url(../../../images/lang.png);
+	width:53.576271057128906px;
+	height:66px;
+	position:absolute;
+	left:27.711864471435547px;
+	top:24px;
+}
+
+.e16_30 { 
+	color:rgba(255, 255, 255, 1);
+	width:46.85981369018555px;
+	height:40.85714340209961px;
+	position:absolute;
+	left:31.579439163208008px;
+	top:103.71428680419922px;
+	font-family:Just Another Hand;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.e16_43 { 
+	color:rgba(255, 255, 255, 1);
+	width:55px;
+	height:40px;
+	position:absolute;
+	left:153px;
+	top:348px;
+	font-family:Just Another Hand;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.e16_37 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	width:109px;
+	height:154px;
+	position:absolute;
+	left:59px;
+	top:403px;
+    border-radius: 20px;
+}
+.e16_38 { 
+	background-color:rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 0.4399999976158142);
+	width:109px;
+	height:154px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+}
+.e16_38 { 
+	border:1px solid rgba(255, 255, 255, 1);
+}
+.e16_39 { 
+	background-image: url(../../../images/kurz.png);
+	width:76.66948699951172px;
+	height:49px;
+	position:absolute;
+	left:15.703390121459961px;
+	top:28px;
+}
+
+.e16_40 { 
+	color:rgba(255, 255, 255, 1);
+	width:47.87850570678711px;
+	height:40.85714340209961px;
+	position:absolute;
+	left:30.560747146606445px;
+	top:102.66666412353516px;
+	font-family:Just Another Hand;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.e16_44 { 
+	color:rgba(255, 255, 255, 1);
+	width:63px;
+	height:40px;
+	position:absolute;
+	left:149px;
+	top:621px;
+	font-family:Just Another Hand;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.e16_49 { 
+	width:247px;
+	height:49px;
+	position:absolute;
+	left:59px;
+	top:810px;
+}
+.ei16_49_16_46 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 0.4399999976158142);
+	width:247px;
+	height:49px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+}
+.i16_49_16_46 { 
+	border:1px solid rgba(255, 255, 255, 1);
+}
+.ei16_49_16_47 { 
+	color:rgba(255, 255, 255, 1);
+	width:92px;
+	height:30px;
+	position:absolute;
+	left:72px;
+	top:10px;
+	font-family:Just Another Hand;
+	text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+}
+.e16_52 { 
+	width:247px;
+	height:49px;
+	position:absolute;
+	left:59px;
+	top:739px;
+}
+.ei16_52_16_46 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 0.4399999976158142);
+	width:247px;
+	height:49px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+}
+.i16_52_16_46 { 
+	border:1px solid rgba(255, 255, 255, 1);
+}
+.ei16_52_16_47 { 
+	color:rgba(255, 255, 255, 1);
+	width:61px;
+	height:30px;
+	position:absolute;
+	left:88px;
+	top:10px;
+	font-family:Just Another Hand;
+	text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+}
+.e16_48 { 
+	width:247px;
+	height:49px;
+	position:absolute;
+	left:59px;
+	top:668px;
+}
+.e16_46 { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color:rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 0.4399999976158142);
+	width:247px;
+	height:49px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+}
+.e16_46 { 
+	border:1px solid rgba(255, 255, 255, 1);
+    font-family: Just Another Hand;
+    font-size:30px;
+}
+.e16_47 { 
+	color:rgba(255, 255, 255, 1);
+	width:49px;
+	height:30px;
+	position:absolute;
+	left:94px;
+	top:10px;
+	font-family:Just Another Hand;
+	text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+}
+.e16_55 { 
+	border:2px solid rgba(106.00000128149986, 132.0000073313713, 118.00000056624413, 1);
+}
+.e16_55 { 
+	width:54px;
+	height:0px;
+	position:absolute;
+	left:94px;
+	top:364px;
+}
+.e16_57 { 
+	border:2px solid rgba(106.00000128149986, 132.0000073313713, 118.00000056624413, 1);
+}
+.e16_57 { 
+	width:54px;
+	height:0px;
+	position:absolute;
+	left:214px;
+	top:364px;
+}
+.e20_60 { 
+	border:2px solid rgba(106.00000128149986, 132.0000073313713, 118.00000056624413, 1);
+}
+.e20_60 { 
+	width:54px;
+	height:0px;
+	position:absolute;
+	left:83px;
+	top:641px;
+}
+.e20_61 { 
+	border:2px solid rgba(106.00000128149986, 132.0000073313713, 118.00000056624413, 1);
+}
+.e20_61 { 
+	width:54px;
+	height:0px;
+	position:absolute;
+	left:218px;
+	top:641px;
+}
+.e23_68 { 
+	color:rgba(255, 255, 255, 1);
+	width:59px;
+	height:40px;
+	position:absolute;
+	left:152px;
+	top:903px;
+	font-family:Just Another Hand;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+.e23_69 { 
+	border:2px solid rgba(106.00000128149986, 132.0000073313713, 118.00000056624413, 1);
+}
+.e23_69 { 
+	width:54px;
+	height:0px;
+	position:absolute;
+	left:86px;
+	top:923px;
+}
+.e23_70 { 
+	border:2px solid rgba(106.00000128149986, 132.0000073313713, 118.00000056624413, 1);
+}
+.e23_70 { 
+	width:54px;
+	height:0px;
+	position:absolute;
+	left:221px;
+	top:923px;
+}
+.e23_92 { 
+	width:219px;
+	height:105px;
+	position:absolute;
+	left:76px;
+	top:1212px;
+}
+.e23_85 { 
+	border-radius:500px;
+	background-color:rgba(106.00000128149986, 132.0000073313713, 118.00000056624413, 1);
+	width:105px;
+	height:105px;
+	position:absolute;
+	left:114px;
+	top:0px;
+}
+.e23_85 { 
+	border:1px solid rgba(255, 255, 255, 1);
+}
+.e23_86 { 
+	border:2px solid rgba(255, 255, 255, 1);
+}
+.e23_86 { 
+	width:74px;
+	height:50px;
+	position:absolute;
+	left:125px;
+	top:31px;
+}
+.e23_87 { 
+	color:rgba(255, 255, 255, 1);
+	width:95px;
+	height:93px;
+	position:absolute;
+	left:0px;
+	top:-14px;
+	font-family:Just Another Hand;
+	text-align:center;
+	font-size:50px;
+	letter-spacing:0;
+}

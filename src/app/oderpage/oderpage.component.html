@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Just+Another Hand&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class=e16_11>
+        <div class="e16_14"></div>
+        <div class=e23_66>
+        <div class="e23_64"></div>
+        <div class="e23_65"></div>
+        <div class="e23_62"></div>
+        <div class="e23_63"></div>
+        </div>
+        <div class="e16_20"></div>
+        <div class="e16_21"></div><span  class="e16_17">
+            Jetzt
+            bestellen</span>
+        <div class="e16_18"></div>
+        <form #f="ngForm" (ngSubmit)="onSubmit(f)">
+            
+            <div class="e20_58"></div><span  class="e16_27">Wähle deinen Pulli</span>
+            <div class="e20_59"></div>
+            <div class="e23_67"></div>
+            <div class="e23_88"></div>
+            <div class=e16_22>
+            <div class="ei16_22_2_12"></div>
+            <div class="ei16_22_2_13"></div>
+            <div class="ei16_22_2_14"></div>
+            </div>
+            <span  class="e23_71">Hauptfarbe</span>
+            <div class="e23_82 ">
+                <label for="hauptfarbe" class="e23_83"></label>
+                <input  class="e23_84 inputfield" name="hauptfarbe" placeholder="z.B. Blau..." ngModel>
+            </div>
+            <span  class="e23_72">Nebenfarbe</span>
+            <div class="e23_79  inputfield">
+                <label for="nebenfarbe" class="e23_80"></label>
+                <input  class="e23_84 inputfield" name="nebenfarbe" placeholder="z.B. Rot..." ngModel>
+            </div>
+            <div class="e16_28"></div>
+            <div class=e16_32>
+            <input type="button" name="length" class="e16_31" >
+            <div class="e16_29"(click)="onLangClick()"></div><span  class="e16_30">Lang</span>
+            </div><span  class="e16_43">Länge</span>
+            <div class=e16_37>
+            <input type ="button" name="length" class="e16_38 length" >
+            <div class="e16_39" (click)="onKurzClick()"></div><span  class="e16_40">Kurz</span>
+
+            </div><span  class="e16_44">Muster</span>
+            <div class=e16_49>
+
+            <div class="ei16_49_16_46">
+                <label class ="labelgroup">
+                    <input type="radio" name="muster" class="ei16_49_16_47 buttoninput" value ="ueberraschung" ngModel>
+                    Überraschung
+                </label>
+            </div>
+            </div>
+            <div class=e16_52>
+            <div class="ei16_52_16_46">
+                <label class ="labelgroup">
+                    <input type="radio" name="muster" class="ei16_52_16_47 buttoninput" value="gestreift" ngModel>
+                    Gestreift
+                </label>
+            </div></div>
+            <div class=e16_48>
+            <div class="e16_46">
+                <label class ="labelgroup">
+                    <input type="radio" name="muster" class="e16_47 buttoninput" value="kariert" ngModel>
+                    Kariert
+                </label>
+            </div>
+        
+            </div>
+            <div class="e16_55"></div>
+            <div class="e16_57"></div>
+            <div class="e20_60"></div>
+            <div class="e20_61"></div><span  class="e23_68">Farben</span>
+            <div class="e23_69"></div>
+            <div class="e23_70"></div>
+            <div class=e23_92>
+            <div class="e23_85"></div>
+            <input type="submit" class="e23_86" id="submitbutton" value="">
+            <span  class="e23_87">Los
+                geht’s!</span>
+            </div>
+        </form>
+  </div>
+</body>
+</html>
