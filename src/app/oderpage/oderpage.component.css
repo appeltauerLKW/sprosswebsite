@@ -77,20 +77,19 @@ label {
 	background-color:rgba(255, 255, 255, 1);
 	width:360px;
 	height:1414px;
-	position:absolute;
+	position:auto;
 }
 .e16_14 { 
+	background-image: url(../../../images/bigleave.png);
+	background-repeat: no-repeat;
 	transform: rotate(5.834815441397deg);
-	background-color:rgba(215.63520669937134, 235.87500303983688, 224.9456799030304, 1);
 	width:253.59864807128906px;
 	height:236.8250274658203px;
 	position:absolute;
-	left:0.27783203125px;
-	top:-30px;
+	left: -12px;
+	top:0;
 }
-.e16_14 { 
-	border:1.0655412673950195px solid rgba(152.80077517032623, 188.06248784065247, 168.82877111434937, 1);
-}
+
 .e23_66 { 
 	width:516px;
 	height:626px;
@@ -170,7 +169,7 @@ label {
 	height:102.0582046508789px;
 	position:absolute;
 	left:27px;
-	top:32.09895324707031px;
+	top:13px;
 	font-family:Just Another Hand;
 	text-align:left;
 	font-size:60px;

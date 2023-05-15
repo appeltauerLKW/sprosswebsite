@@ -16,6 +16,13 @@ button {
     background-repeat: no-repeat;
   }
 
+.homeleave {
+	background-image: url(../../../images/leave.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	width:auto;
+	height: auto;
+}
 
 .e2_11 { 
 	overflow:hidden;
@@ -24,7 +31,7 @@ button {
 	background-color:rgba(255, 255, 255, 1);
 	width:360px;
 	height:800px;
-	position:absolute;
+	position:auto;
 }
 .e16_4 { 
 	width:462px;
@@ -40,6 +47,7 @@ button {
 	position:absolute;
 	left:15px;
 	top:132px;
+	border-radius: 20px;
 }
 .e3_18 { 
 	background-color:rgba(152.80077517032623, 188.06248784065247, 168.82877111434937, 1);

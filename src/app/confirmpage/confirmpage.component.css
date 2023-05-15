@@ -5,7 +5,7 @@
 	background-color:rgba(255, 255, 255, 1);
 	width:360px;
 	height:640px;
-	position:absolute;
+	position:auto;
 }
 .e206_16 { 
 	border-radius:500px;
@@ -62,7 +62,7 @@
 	top:-82px;
 }
 .e206_21 { 
-	background-color:rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 1);
+	background-color:rgb(147, 179, 162);
 	opacity:0.5;
 	width:287px;
 	height:530px;
@@ -110,6 +110,7 @@
 	position:absolute;
 	left:141px;
 	top:346px;
+    
 }
 
 .e206_22 { 
