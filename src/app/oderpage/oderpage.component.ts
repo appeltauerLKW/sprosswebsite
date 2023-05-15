@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {NgForm} from '@angular/forms';
+import { Router } from '@angular/router';
  
 
 @Component({
@@ -10,6 +11,9 @@ import {NgForm} from '@angular/forms';
 export class OderpageComponent {
   muster:string = "";
   length:any;
+
+  constructor(public router: Router){
+  }
 
   onSubmit(form: NgForm) {
     console.log(form.value);
@@ -33,16 +37,35 @@ export class OderpageComponent {
     .then(json => {
       // Do something with object
       console.log(json.order);
+      this.router.navigate(['/confirmpage']);
     });
-
+    
   }
 
   onLangClick() {
     this.length = 'lang';
+    const selectedbutton = document.getElementsByClassName("e16_31");
+    const otherbutton = document.getElementsByClassName("e16_38");
+    this.changeSelection(selectedbutton, otherbutton);
   }
   
   onKurzClick() {
     this.length = 'kurz';
+    const selectedbutton = document.getElementsByClassName("e16_38");
+    const otherbutton = document.getElementsByClassName("e16_31");
+    this.changeSelection(selectedbutton, otherbutton);
+  }
+
+  changeSelection(selectedbutton: any, otherbutton:any) {
+    // Remove 'selected' class from all buttons
+    for (let i = 0; i < otherbutton.length; i++) {
+      otherbutton[i].classList.remove("selected");
+    }
+
+    // Add 'selected' class to the clicked button
+    for (let i = 0; i < otherbutton.length; i++) {
+      selectedbutton[i].classList.add("selected");
+    }
   }
 
 }

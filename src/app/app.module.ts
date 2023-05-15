@@ -7,13 +7,15 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { OderpageComponent } from './oderpage/oderpage.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ConfirmpageComponent } from './confirmpage/confirmpage.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    OderpageComponent
+    OderpageComponent,
+    ConfirmpageComponent
   ],
   imports: [
     BrowserModule,

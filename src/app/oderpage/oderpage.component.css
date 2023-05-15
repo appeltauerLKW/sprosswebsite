@@ -421,13 +421,10 @@ label {
 	border:1px solid rgba(255, 255, 255, 1);
 }
 
-.e16_31:focus {
-	background-color: rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 0.9);
+.selected {
+	background-color: rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 0.9) !important;
 }
 
-.e16_38:focus {
-	background-color: rgba(216.00000232458115, 236.00000113248825, 225.00000178813934, 0.9);
-}
 
 .e16_29 { 
 	background-image: url(../../../images/lang.png);
